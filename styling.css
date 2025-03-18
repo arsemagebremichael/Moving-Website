@@ -1,0 +1,793 @@
+body {
+    max-width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+@font-face {
+    font-family: poppins1;
+    src: url('poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url('poppins/Poppins-ExtraBold.ttf');
+}
+
+.contacts{
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: poppins1;
+    padding: 1% 12%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(80, 78, 78);
+}
+#address{
+    font-size: large;
+    color: darkgray;
+}
+
+.content-above{
+    align-items: end;
+}
+a{
+    color:white;
+}
+.icon-contacts{
+    padding: 0px 16%;
+    overflow: hidden;
+    margin-top: -2.8%;
+}
+
+.icon-left {
+    float: left;
+    border: ;
+}
+.icon-right {
+    float: right;
+}
+
+.nav-bar-above{
+    padding: 1.5% 0 1%;
+    text-align: center;
+    background-color:rgb(49, 49, 49);
+    color: darkgrey;
+    font-family: poppins1;
+    font-weight: bold;
+
+}
+.nav-bar {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 6vh;
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.nav-bar button {
+    color: rgb(139, 130, 130);
+    font-family: poppins1;
+    font-size: large;
+    border: 0;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.nav-bar button:hover {
+    color: orange;
+    cursor: pointer;
+
+}
+
+.moving-page {
+    padding-top: 10%;
+    padding-bottom: 18%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/move2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.moving-page-text {
+
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 60vh;
+
+}
+
+h1 {
+    line-height: 1;
+    font-size: 100px;
+    font-family: poppins-bold;
+    font-weight: bolder;
+}
+
+#smooth-moving {
+
+    margin-bottom: -50px;
+    font-family: poppins1;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+}
+
+.moving-page button {
+    padding: 1.5% 4%;
+    border-radius: 3%;
+    background-color: rgb(245, 161, 6);
+    color: white;
+    border-color: transparent;
+    border: 0cap;
+
+}
+
+.moving-page button:hover {
+    padding: 1.5% 4%;
+    border-radius: 3%;
+    background-color: white;
+    color: rgb(245, 161, 6);
+    border-color: transparent;
+    border: 0cap;
+}
+
+.about-us {
+    padding-top: 7%;
+    width: 78%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+h6 {
+    font-family: poppins1;
+    color: rgb(245, 161, 6);
+    text-decoration: underline;
+    font-size: large;
+    letter-spacing: 0.2em;
+
+}
+
+h6:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: -30px;
+    font-family: poppins1;
+    font-size: 3.8rem;
+    color: rgb(37, 37, 37);
+
+}
+
+.left-of-about-us img {
+    width: 70%;
+}
+
+.right-of-about-us {
+
+    margin-left: -6%;
+    margin-top: 3%;
+
+}
+
+.right-of-about-us img {
+
+    height: 67%;
+    width: 110%;
+    border-radius: 0.5%;
+
+}
+
+.riaad-texts {
+    padding-top: 15%;
+    display: flex;
+    gap: 10%;
+}
+
+.riaad-heading {
+    padding-top: 5%;
+}
+
+.riaad-texts p {
+    font-family: poppins1;
+    color: darkgray;
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+.logo {
+    display: flex;
+    width: 78%;
+    justify-content: space-between;
+    margin: 10% auto;
+    height: 80%;
+
+}
+
+.our-services {
+
+    justify-content: center;
+    width: 78%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.our-services-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.our-services-h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: poppins1;
+
+
+}
+
+.what-we-do img {
+    width: 50%;
+    padding: 0 20%;
+
+}
+
+.what-we-do p {
+
+    color: rgb(121, 118, 118);
+    line-height: 2.5;
+
+}
+
+.what-we-do p:hover {
+    color: white;
+}
+
+h5 {
+    font-size: large;
+    padding: 8% 0;
+}
+
+.packing {
+    margin: 0 auto;
+    padding: 5% 6% 1.5%;
+    border: 1px solid black;
+}
+
+.packing:hover {
+    background-color: rgb(91, 133, 212);
+    color: white;
+}
+
+.packing button {
+    margin-top: 50%;
+    color: rgb(245, 161, 6);
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.storage {
+    margin: 0 auto;
+    padding: 5% 6% 1.5%;
+    border: 1px solid black;
+}
+
+.storage button {
+    margin-top: 50%;
+    color: rgb(245, 161, 6);
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.transport {
+    margin: 0 auto;
+    padding: 5% 6% 1.5%;
+    border: 1px solid black;
+}
+
+.transport button {
+    margin-top: 50%;
+    color: rgb(245, 161, 6);
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.insurance {
+    margin: 0 auto;
+    padding: 5% 6% 1.5%;
+    border: 1px solid black;
+}
+
+.insurance button {
+    margin-top: 50%;
+    color: rgb(245, 161, 6);
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.helping-everystep {
+    display: flex;
+    padding: 10% 0 15%;
+    justify-content: space-between;
+    font-family: poppins1;
+}
+
+.helping-everystep h2 {
+    font-size: 3rem;
+}
+
+.helping-everystep p {
+    color: rgb(66, 63, 63);
+    padding-left: 15%;
+    font-size: large;
+}
+
+.helping-everystep video {
+    right: 0;
+    margin-top: -5%;
+}
+
+.why-choose-raaid {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+
+}
+
+.why-choose-raaid-left {
+    padding: 0 15% 0 0;
+    background-color: rgb(24, 97, 165);
+    border: 1px solid;
+    border-color: transparent;
+
+}
+
+.why-choose-raaid-left img {
+    width: 140%;
+    margin-top: -0.2%;
+    margin-left: -0.2%;
+    position: relative;
+}
+
+.why-choose-raaid-box {
+    position: absolute;
+    top: 500%;
+    left: 14%;
+    padding: 0 4% 0;
+    border: 1px solid;
+    background-color: white;
+    border-color: transparent;
+}
+
+.why-choose-raaid h5 {
+    font-family: poppins1;
+    font-size: x-large;
+    color: rgb(92, 92, 92);
+    line-height: 1.5;
+}
+
+.why-choose-raaid button {
+
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: poppins1;
+    font-size: large;
+    margin-bottom: 20%;
+    font-weight: bold;
+    border: 0;
+    border-color: transparent;
+    background-color: transparent;
+
+}
+
+.why-choose-raaid button:hover {
+    color: rgb(139, 130, 130);
+
+}
+
+.why-choose-raaid-left p {
+    color: white;
+    font-family: poppins1;
+    padding-left: 8%;
+    padding-top: 8%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.why-choose-raaid-right {
+    padding-left: 9%;
+    width: 50%;
+}
+
+.why-choose-raaid-right h6 {
+    margin-top: -1%;
+}
+
+.why-choose-raaid-right h2 {
+    line-height: 1.3;
+}
+
+.why-choose-raaid-right p {
+    width: 100%;
+    font-family: poppins1;
+    color: darkgray;
+    font-weight: 600;
+    font-size: large;
+    line-height: 2.5;
+    padding-bottom: ;
+}
+
+.why-choose-raaid li {
+    line-height: 9;
+    font-family: poppins1;
+    font-size: x-large;
+    color: rgb(92, 92, 92);
+
+}
+
+.book-online {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 4%;
+    font-size: x-large;
+    font-family: poppins1;
+    color: rgb(133, 133, 133);
+}
+
+#book-online {
+    color: rgb(245, 161, 6);
+    text-decoration: underline;
+
+}
+
+/*#book-online ::hover{
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+
+}*/
+
+.play-icon {
+    position: relative;
+    overflow: visible;
+}
+
+#coupleImg {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#orangeplay {
+    position: absolute;
+    overflow: visible;
+    left: 50%;
+    top: -550px;
+    cursor: pointer;
+
+}
+
+.form-to-book {
+    display: flex;
+
+}
+
+.yellow-part {
+    position: relative;
+    border: none;
+    background-color: orange;
+    width: 40%;
+    padding: 4.5% 0 1%;
+
+}
+
+.yellow-part h6 {
+    margin-left: 23%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.yellow-part h2 {
+    font-weight: bolder;
+    margin-left: 50%;
+    width: 35%;
+    font-size: 3rem;
+    color: white;
+}
+
+.form-part {
+    font-family: poppins1;
+    border: none;
+    background-color: rgb(116, 116, 173);
+    width: 60%;
+    padding-left: 6%;
+    padding-top: 4%;
+
+}
+
+.form-part input {
+    font-family: poppins1;
+    height: 140%;
+    width: 120%;
+    border: solid 1px rgb(192, 185, 185);
+}
+
+.moving-type-plus-date {
+    gap: 13%;
+    display: flex;
+    color: white;
+    padding-bottom: 7%;
+}
+
+#date {
+    width: 55%;
+
+
+}
+
+#date ::placeholder {
+    color: darkgray
+}
+
+.from-plus-home-size {
+    gap: 13%;
+    display: flex;
+    color: white;
+    padding-bottom: 7%;
+
+}
+
+.destination-and-sendRequest {
+    gap: 6.5%;
+    display: flex;
+    color: white;
+
+}
+
+.destination-and-sendRequest button {
+    font-family: poppins1;
+    width: 30.5%;
+    padding: 2.8% 4%;
+    margin-top: 2%;
+    border-radius: 3%;
+    background-color: rgb(245, 161, 6);
+    color: white;
+    border-color: transparent;
+    border: 0cap;
+    cursor: pointer;
+
+}
+
+.destination-and-sendRequest button:hover {
+    border-radius: 3%;
+    background-color: white;
+    color: rgb(245, 161, 6);
+    border-color: transparent;
+    border: 0cap;
+}
+
+#destination input {
+    height: 75%;
+}
+
+.testimonals {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: poppins1;
+
+}
+.article-headers{
+    justify-content: center;
+    margin: 7% auto;
+    align-items: center;
+}
+
+.testimonals-from-people{
+    width: 78%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    color: darkgrey;
+    font-weight: bolder;
+    font-family: 'poppins1';
+}
+
+.customrName{
+    font-family: poppins1;
+    color: rgb(245, 161, 6);
+    font-size: large;
+    letter-spacing: 0.2em;
+}
+
+
+
+/*
+
+
+
+.all-moving-type input,
+.Form1 input,
+.to input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+.to button {
+    padding: 10px 20px;
+    height: 43px;
+    margin-top: 3.5%;
+    background-color: orange;
+}
+
+
+
+.new-update{
+    display: flex;
+    margin-left: 31%;
+    gap: 1.9%;
+    margin-bottom: 4%;
+}
+.new-update input{
+    width: 30%;
+    border: none;
+    background-color: rgb(252, 244, 227);
+}
+.new-update button{
+    height: 50px;
+    width: 220px;
+    background-color: rgb(255, 187, 0);
+    border: none;
+}
+.blog{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.blog p{
+    color: rgb(255, 187, 0);
+}
+.news-images{
+    display: flex;
+    /* gap: 2.5%; */
+margin-left: 0%;
+margin-bottom: -1%;
+}
+
+.news-1 {
+    position: relative;
+}
+
+.news-1 img {
+    height: 67%;
+    width: 48%;
+    margin-left: 48%;
+    backdrop-filter: blur(10px);
+}
+
+.news-1-txt {
+    position: absolute;
+    top: 27%;
+    margin-left: 54%;
+    color: white;
+}
+
+.news-1-txt p {
+    color: rgb(216, 213, 213);
+}
+
+.news-2 {
+    position: relative;
+}
+
+.news-2 img {
+    height: 67%;
+    margin-left: -2%;
+}
+
+.news-2-txt {
+    position: absolute;
+    top: 27%;
+    margin-left: 10%;
+    color: white;
+}
+
+.news-2-txt p {
+    color: rgb(216, 213, 213);
+}
+
+.news-3 {
+    position: relative;
+}
+
+.news-3 img {
+    height: 67%;
+    width: 70%;
+    margin-left: -30%;
+}
+
+.news-3-txt {
+    position: absolute;
+    top: 27%;
+    margin-left: -10%;
+    color: white;
+}
+
+.discover {
+    display: flex;
+    border: none;
+    padding: 4% 4%;
+    background-color: rgb(255, 166, 1);
+    /* margin: -2% 13%; */
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    border: none;
+    background-color: rgb(68, 63, 63);
+    /* margin: -2% 13%; */
+    gap: 5%;
+    color: white
+}
+
+.icons {
+    position: relative;
+    overflow: visible;
+}
+
+.address {
+    margin-left: 25%;
+}
+
+#linked {
+    position: relative;
+    overflow: visible;
+    top: -2%
+}
+
+/* .triangle-up {
+    position: relative;
+    overflow: visible;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #DFD6D6;
+} */
+.line {}
