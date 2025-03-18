@@ -33,6 +33,13 @@ body {
 .content-above{
     align-items: end;
 }
+.email{
+    display: flex;
+}
+.phoneNum{
+    display: flex;
+
+}
 a{
     color:white;
 }
@@ -42,12 +49,17 @@ a{
     margin-top: -2.8%;
 }
 
-.icon-left {
+.icon-mail {
     float: left;
-    border: ;
+    font-size: xx-large;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 .icon-right {
     float: right;
+    font-size: xx-large;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 
 .nav-bar-above{
@@ -437,7 +449,6 @@ h5 {
     font-weight: 600;
     font-size: large;
     line-height: 2.5;
-    padding-bottom: ;
 }
 
 .why-choose-raaid li {
@@ -633,10 +644,101 @@ h5 {
     letter-spacing: 0.2em;
 }
 
+.new-updates{
+    justify-content: center;
+    width: 78%;
+    text-align: center;
+    margin: 5% auto 0;
+    align-items: center;
 
+}
+
+.new-updates-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.new-update{
+    display: flex;
+    margin-left: 31%;
+    gap: 1.9%;
+    margin-bottom: 4%;
+}
+.subscribe-now{
+    padding-top: 5%;
+}
+
+.subscribe-now input{
+    width: 35%;
+    padding: 1.5% 2.5%;
+    border: none;
+    background-color: rgb(252, 244, 227);
+    font-family: poppins1;
+    font-size: large;
+}
+.subscribe-now button{
+
+    padding: 1.5% 2.5%;
+    background-color: rgb(255, 187, 0);
+    color: white;
+    font-size: large;
+    font-family: poppins1;
+    border: none;
+}
+.subscribe-now button:hover {
+    padding: 1.5% 4%;
+    border-radius: 3%;
+    background-color: white;
+    color: rgb(245, 161, 6);
+    border-color: transparent;
+    border: 0cap;
+}
+.our-blog {
+    display: block;
+    justify-content: center;
+    width: 78%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.our-blog-heading{
+    padding-top: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.our-services-h2 {
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.our-services-h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blogs-container{  
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.blogs-container img{
+    width: 30%;
+    height: 40%;
+}
 
 /*
-
 
 
 .all-moving-type input,
@@ -684,77 +786,20 @@ h5 {
 .news-images{
     display: flex;
     /* gap: 2.5%; */
-margin-left: 0%;
-margin-bottom: -1%;
-}
 
-.news-1 {
-    position: relative;
-}
 
-.news-1 img {
-    height: 67%;
-    width: 48%;
-    margin-left: 48%;
-    backdrop-filter: blur(10px);
-}
 
-.news-1-txt {
-    position: absolute;
-    top: 27%;
-    margin-left: 54%;
-    color: white;
-}
-
-.news-1-txt p {
-    color: rgb(216, 213, 213);
-}
-
-.news-2 {
-    position: relative;
-}
-
-.news-2 img {
-    height: 67%;
-    margin-left: -2%;
-}
-
-.news-2-txt {
-    position: absolute;
-    top: 27%;
-    margin-left: 10%;
-    color: white;
-}
-
-.news-2-txt p {
-    color: rgb(216, 213, 213);
-}
-
-.news-3 {
-    position: relative;
-}
-
-.news-3 img {
-    height: 67%;
-    width: 70%;
-    margin-left: -30%;
-}
-
-.news-3-txt {
-    position: absolute;
-    top: 27%;
-    margin-left: -10%;
-    color: white;
-}
-
-.discover {
+.discover-more {
     display: flex;
     border: none;
-    padding: 4% 4%;
+    padding: 6% 15%;
     background-color: rgb(255, 166, 1);
     /* margin: -2% 13%; */
 }
-
+.discover-more h2{
+    color: white;
+    font-size: 250%;
+}
 .footer {
     position: relative;
     overflow: hidden;
